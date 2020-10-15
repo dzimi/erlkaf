@@ -6,19 +6,19 @@ matrix:
   include:
 
     - os: linux
-      dist: xenial
+      dist: bionic
       otp_release: 22.3
 
     - os: linux
-      dist: xenial
+      dist: bionic
       otp_release: 21.3
 
     - os: linux
-      dist: xenial
+      dist: bionic
       otp_release: 20.3
 
     - os: linux
-      dist: xenial
+      dist: bionic
       otp_release: 19.3
 
     - os: osx
