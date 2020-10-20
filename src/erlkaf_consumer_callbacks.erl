@@ -5,7 +5,7 @@
 -callback init(binary(), integer(), integer(), any()) ->
     {ok, any()}.
 
--callback handle_message(#erlkaf_msg{}, state()) ->
+-callback handle_message(#erlkaf_msg{} | list(#erlkaf_msg{}), state()) ->
     {ok, state()} | {error, reason(), state()}.
 
 -callback stats_callback(client_id(), map()) ->
